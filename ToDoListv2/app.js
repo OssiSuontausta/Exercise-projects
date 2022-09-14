@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //Install and add mongoose!!!
-mongoose.connect("mongodb+srv://Mustakaapu:test-123@cluster0.evwf5ue.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://user:test-12345@cluster0.evwfgde.mongodb.net/todolistDB");
 
 //Create new Mongoose Schema!!
 const itemsSchema = {
